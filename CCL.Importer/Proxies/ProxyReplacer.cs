@@ -38,7 +38,7 @@ namespace CCL.Importer.Proxies
             }
         }
         //By default, this does nothing - custom implementations might want to use this step
-        public virtual void ReplaceProxiesUncached(GameObject prefab)
+        public virtual void ReplaceSpecialProxies(GameObject prefab)
         {
             return;
         }

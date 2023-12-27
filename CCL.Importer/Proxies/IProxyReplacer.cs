@@ -18,7 +18,7 @@ namespace CCL.Importer.Proxies
         /// Replace proxies that shouldn't be interacting with the monobehaviour cache.  This supports highly custom replacers such as swapping out a proxy for an entire prefab or vanilla resource
         /// </summary>
         /// <param name="prefab"></param>
-        void ReplaceProxiesUncached(GameObject prefab);
+        void ReplaceSpecialProxies(GameObject prefab);
 
         /// <summary>
         /// Called in a second pass.  Replacement cache has been fully built by this point and therefore cache can be used to complete the mapping process.

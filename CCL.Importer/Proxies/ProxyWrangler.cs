@@ -38,7 +38,7 @@ namespace CCL.Importer.Proxies
             }
             foreach (var mapper in proxyMappers)
             {
-                mapper.ReplaceProxiesUncached(prefab);
+                mapper.ReplaceSpecialProxies(prefab);
             }
             foreach (var mapper in proxyMappers)
             {
